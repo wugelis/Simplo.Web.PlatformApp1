@@ -50,8 +50,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="EasyArchitect.Web.WebApiHostBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\EasyArchitect.Web.WebApiHostBase.0.9.5.0\lib\net46\EasyArchitect.Web.WebApiHostBase.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\EasyArchitect.Web.WebApiHostBase.0.9.5.1\lib\net46\EasyArchitect.Web.WebApiHostBase.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -155,6 +154,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Simplo.Business.HelloWorld\Simplo.Business.HelloWorld.csproj">
+      <Project>{9d7cbace-8d63-4571-8fc1-7ef379cb4be1}</Project>
+      <Name>Simplo.Business.HelloWorld</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

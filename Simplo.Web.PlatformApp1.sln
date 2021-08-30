@@ -10,6 +10,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E58FEB10-330F-4E91-A075-94344635780D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{FCF8DA7A-FC28-4044-A624-99DA8E9DE332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplo.Business.HelloWorld", "Simplo.Business.HelloWorld\Simplo.Business.HelloWorld.csproj", "{9D7CBACE-8D63-4571-8FC1-7EF379CB4BE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +26,17 @@ Global
 		{1B6101AA-3886-4269-8ACF-C8079F1073DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B6101AA-3886-4269-8ACF-C8079F1073DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B6101AA-3886-4269-8ACF-C8079F1073DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D7CBACE-8D63-4571-8FC1-7EF379CB4BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7CBACE-8D63-4571-8FC1-7EF379CB4BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7CBACE-8D63-4571-8FC1-7EF379CB4BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7CBACE-8D63-4571-8FC1-7EF379CB4BE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B6101AA-3886-4269-8ACF-C8079F1073DB} = {E58FEB10-330F-4E91-A075-94344635780D}
+		{9D7CBACE-8D63-4571-8FC1-7EF379CB4BE1} = {FCF8DA7A-FC28-4044-A624-99DA8E9DE332}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42295930-6AA3-4C32-9403-C0D6459270EB}
